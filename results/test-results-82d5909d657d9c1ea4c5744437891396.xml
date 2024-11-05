@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.284" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-11-05T11:48:41" tests="0" file="cypress/e2e/feature/hotel.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Reserva de hotel" timestamp="2024-11-05T11:48:41" tests="1" time="4.274" failures="1">
+    <testcase name="Reserva de hotel Reservar um hotel" time="0.000" classname="Reservar um hotel">
+      <failure message="Syntax error, unrecognized expression: //*[@id=&quot;fadein&quot;]/main/section/div/div/div[2]/div[1]/div/div/div[3]/div/div[2]/p" type="Error"><![CDATA[Error: Syntax error, unrecognized expression: //*[@id="fadein"]/main/section/div/div/div[2]/div[1]/div/div/div[3]/div/div[2]/p
+    at Sizzle.error (https://phptravels.net/__cypress/runner/cypress_runner.js:8442:8)
+    at Sizzle.tokenize (https://phptravels.net/__cypress/runner/cypress_runner.js:9098:11)
+    at Sizzle.select (https://phptravels.net/__cypress/runner/cypress_runner.js:9525:20)
+    at Function.Sizzle [as find] (https://phptravels.net/__cypress/runner/cypress_runner.js:7746:9)
+    at jQuery.fn.init.find (https://phptravels.net/__cypress/runner/cypress_runner.js:9778:11)
+    at new jQuery.fn.init (https://phptravels.net/__cypress/runner/cypress_runner.js:9893:40)
+    at Object.query (https://phptravels.net/__cypress/runner/cypress_runner.js:35110:10)
+    at $Cy.$$ (https://phptravels.net/__cypress/runner/cypress_runner.js:139893:57)
+    at <unknown> (https://phptravels.net/__cypress/runner/cypress_runner.js:131823:18)
+    at Object.subjectFn (https://phptravels.net/__cypress/runner/cypress_runner.js:143709:16)
+    at $Cy.verifyUpcomingAssertions (https://phptravels.net/__cypress/runner/cypress_runner.js:143048:31)
+    at onRetry (https://phptravels.net/__cypress/runner/cypress_runner.js:143700:15)
+    at retryQuery (https://phptravels.net/__cypress/runner/cypress_runner.js:143713:10)
+    at <unknown> (https://phptravels.net/__cypress/runner/cypress_runner.js:143863:17)
+    at tryCatcher (https://phptravels.net/__cypress/runner/cypress_runner.js:1807:23)
+    at Promise._settlePromiseFromHandler (https://phptravels.net/__cypress/runner/cypress_runner.js:1519:31)
+    at Promise._settlePromise (https://phptravels.net/__cypress/runner/cypress_runner.js:1576:18)
+    at Promise._settlePromiseCtx (https://phptravels.net/__cypress/runner/cypress_runner.js:1613:10)
+    at _drainQueueStep (https://phptravels.net/__cypress/runner/cypress_runner.js:2411:12)
+    at _drainQueue (https://phptravels.net/__cypress/runner/cypress_runner.js:2400:9)
+    at Async._drainQueues (https://phptravels.net/__cypress/runner/cypress_runner.js:2416:5)
+    at Async.drainQueues (https://phptravels.net/__cypress/runner/cypress_runner.js:2286:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
