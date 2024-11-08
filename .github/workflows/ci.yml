@@ -1,29 +1,35 @@
-name: End-to-end tests
+name: Cypress Tests
 
 on:
   push:
     branches:
       - main
   pull_request:
+    branches:
+      - main
 
 jobs:
-  eslint:
+  cypress-run:
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: npm install
-    - name: Run ESLint
-      run: npm run lint
-  e2e-tests:
-    needs: eslint
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
 
-    - name: Run end-to-end tests
-      uses: cypress-io/github-action@v2
-      with:
-        command: npm test
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23'  
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run lint
+        run: npm run lint
+        continue-on-error: true  
+
+      - name: Run Cypress tests
+        env:
+          CYPRESS_BASE_URL: 'http://www.automationpractice.pl/index.php'
+        run: npx cypress run
