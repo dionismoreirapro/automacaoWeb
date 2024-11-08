@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-11-08T04:20:38.093Z",
+    "end": "2024-11-08T04:21:44.917Z",
+    "duration": 66824
+  },
+  "results": [
+    {
+      "uuid": "6770390b-dba2-4a0f-8f03-a3ba0cf366d4",
+      "title": "",
+      "fullFile": "cypress/e2e/feature/login.feature",
+      "file": "cypress/e2e/feature/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "de8f8814-c140-4684-8b43-ab37f5daf49d",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realizar login \"com sucesso\" (example #1)",
+              "fullTitle": "Login Realizar login \"com sucesso\" (example #1)",
+              "timedOut": null,
+              "duration": 7181,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c7dcad93-e3bf-446d-8114-5458f3a79929",
+              "parentUUID": "de8f8814-c140-4684-8b43-ab37f5daf49d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c7dcad93-e3bf-446d-8114-5458f3a79929"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7181,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "92a898fb-2365-43df-ad33-71f72849938f",
+      "title": "",
+      "fullFile": "cypress/e2e/feature/compras.feature",
+      "file": "cypress/e2e/feature/compras.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6b40a18b-2f76-4151-bb6c-327c961793ac",
+          "title": "Comprar um vestido online",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realizar a compra de um vestido",
+              "fullTitle": "Comprar um vestido online Realizar a compra de um vestido",
+              "timedOut": null,
+              "duration": 11385,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "75256e9d-e21f-4ba0-be1c-3561f13b2769",
+              "parentUUID": "6b40a18b-2f76-4151-bb6c-327c961793ac",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "75256e9d-e21f-4ba0-be1c-3561f13b2769"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11385,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "753dc3e5-9e4a-4264-bf4e-93b723dbe7c3",
+      "title": "",
+      "fullFile": "cypress/e2e/feature/login.feature",
+      "file": "cypress/e2e/feature/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f10a3bf9-1e35-40e9-b579-b4af150b13fb",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realizar login \"com sucesso\" (example #1)",
+              "fullTitle": "Login Realizar login \"com sucesso\" (example #1)",
+              "timedOut": null,
+              "duration": 7904,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0367820e-6b3f-4975-9973-b82cd80ff01a",
+              "parentUUID": "f10a3bf9-1e35-40e9-b579-b4af150b13fb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0367820e-6b3f-4975-9973-b82cd80ff01a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7904,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

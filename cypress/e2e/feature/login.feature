@@ -1,11 +1,13 @@
 Feature: Login 
 
-  Scenario Outline: login com sucesso
-    Given eu acesse a página home da aplicação
-    When eu preencher o campo "<email>" válido e "<senha>" válida
-    And clicar no botão Entrar
-    Then eu devo validar se estou logado
+  Scenario Outline: Realizar login "<cenario>"
+    Given que clico no botão Sign in para efetuar o login
+    When informo os dados de email "<email>" e "<senha>"
+    And clico no botão Sign in
+    Then devo ser redirecionado para a página de conta
+    And devo ver a mensagem My account
 
-    Examples:
-    |cenario           | email             |  senha  |
-    |Login com sucesso |user@phptravels.com| demouser|
+  Examples:    
+    |cenario           | email                      |  senha  |
+    |com sucesso       |dionis.rodrigo2@gmail.com   | 193264  |
+
