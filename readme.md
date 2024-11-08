@@ -23,7 +23,5 @@ Para executar esse projeto é necessário:
 Foi implementada a integração contínua com GitHub Actions no projeto. O arquivo de configuração do CI é o `.github/workflows/ci.yml`. Em todo push ou pull_request no branch `main` o pipeline é executado.
 
 
-## Relatório dos testes
-
 ## Relatórios de Teste
 ![Relatorio de teste ](https://github.com/dionismoreirapro/automacaoWeb/blob/main/report.png)
