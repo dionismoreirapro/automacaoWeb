@@ -51,6 +51,7 @@ Foi implementada a integração contínua com GitHub Actions no projeto. O arqui
 Gerando relatório
 ```bash
    npx cypress run --reporter mochawesome
+Após executado os teste acesse a pasta mochawesome-report que foi gerado após a execução para visualizar o report.
 ```
 ## Relatórios de Teste
 ![Relatorio de teste ](https://github.com/dionismoreirapro/automacaoWeb/blob/main/report.png)
